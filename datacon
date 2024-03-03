@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rich Text Editor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="editor" contenteditable="true" class="rich-text-input">
+        Type your rich text here...
+    </div>
+    <button onclick="copyText()">Copy Text</button>
+    <div id="output" class="rich-text-output">
+        Output will appear here...
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
