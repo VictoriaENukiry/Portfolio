@@ -1,4 +1,4 @@
-runtime: python3114
+runtime: python39
 handlers:
 - url: /.*
   script: auto
